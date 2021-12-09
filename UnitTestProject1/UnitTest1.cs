@@ -101,16 +101,7 @@ namespace UnitTestProject1
 
         }
 
-        [TestMethod]
-        public void Insertar_HojaTest()
-        {
-            String Respuesta;
-
-            Respuesta = ClsTablaAsistenciaNegocio.Insertar("18-07-2021", "9:45:07");
-
-            Assert.AreEqual(Respuesta, "Se Agrego Correctamente");
-
-        }
+ 
 
     }
 }
